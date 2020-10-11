@@ -6,29 +6,25 @@ import java.util.ArrayList;
 
 @Data
 public class ExceptionManager {
-    public static final ArrayList<String> criticalExceptionClassNamesList
-            = new ArrayList<String>();
+    public final ArrayList<String> criticalExceptionClassNamesList
+            = new ArrayList<>();
 
     private int nonCriticalExceptionsNumber;
     private int criticalExceptionsNumber;
 
-    public Boolean addExceptionClassToCritical(String exceptionName){
+    public Boolean addExceptionClassToCritical(String exceptionName) {
         return criticalExceptionClassNamesList.add(exceptionName);
     }
 
     public Boolean isCriticalException(Exception e) {
-        if (criticalExceptionClassNamesList.contains(e.getClass().getCanonicalName())) {
-            return true;
-        } else {
-            return false;
-        }
+        return criticalExceptionClassNamesList.contains(e.getClass()
+                .getCanonicalName());
     }
 
-    public void manageExceptions(Exception exception){
-        if(isCriticalException(exception)){
+    public void manageExceptions(Exception exception) {
+        if (isCriticalException(exception)) {
             criticalExceptionsNumber++;
-        }
-        else{
+        } else {
             nonCriticalExceptionsNumber++;
         }
     }
