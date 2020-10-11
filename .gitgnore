@@ -1,7 +1,0 @@
-HELP.md
-/.idea/
-/target/
-/.mvn
-*.iml
-mvnw
-/mvnw.cmd
