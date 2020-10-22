@@ -17,13 +17,12 @@ public class ExceptionManagerTest {
     @Before
     public void setUp() {
         exceptionManager = new ExceptionManager();
-        exceptionManager.addExceptionClassToCritical(
-                CriticalException.class.getCanonicalName());
     }
 
     @Test
     public void isCriticalException() {
         CriticalException criticalException = new CriticalException();
+        System.out.println("Name: " + criticalException.getClass().getName());
         boolean isCritical = exceptionManager.isCriticalException(criticalException);
         assertTrue(isCritical);
     }

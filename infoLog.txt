@@ -1,0 +1,17 @@
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
+INFO    22.10.2020 13:19:40 - CriticalException
