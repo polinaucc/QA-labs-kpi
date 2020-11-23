@@ -1,0 +1,176 @@
+{
+  "id": "3db8ac31-1ef1-479b-adfd-77e0389f2f44",
+  "version": "2.0",
+  "name": "Rozetka_test",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "82f04693-f402-49c1-9a72-f49ff7619eee",
+    "name": "Hennessey",
+    "commands": [{
+      "id": "46664654-e614-418c-87ad-0a9729faff43",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec7fa32e-6691-49e4-8c45-fe19d172122f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x741",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54fd7f53-1a80-4cb2-a74d-8d2d9a5acf9d",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hennessy"
+    }, {
+      "id": "09e41767-5c85-49f4-bacf-3df01b1c0479",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-form__submit",
+      "targets": [
+        ["css=.search-form__submit", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Знайти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44fce40d-52e6-4c9a-9539-6f67e97a1527",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__picture",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__picture", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/hennessy_3245995960015/p5014575/')]", "xpath:href"],
+        ["xpath=//app-goods-tile-default/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbf0407b-14cf-495b-b53b-3ce36cbe70ec",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__picture",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__picture", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/hennessy_3245995960015/p5014575/')]", "xpath:href"],
+        ["xpath=//app-goods-tile-default/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e28ae895-1128-473f-b509-e23d57253656",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__title", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Коньяк Hennessy VS 4 роки витримки 0.7 л 40% в подарунковій упаковці (3245995960015)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48a9a931-0380-493d-a1c0-aa4a3c89e33c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,80)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a6eb4d9-1fae-4b8f-b87d-0b1d76cfdb89",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button_size_large",
+      "targets": [
+        ["css=.button_size_large", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//app-buy-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9b7f841-97d8-45da-9569-cbbb35aa5303",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button_size_large",
+      "targets": [
+        ["css=.button_size_large", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//app-buy-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c029c0bd-f541-44b7-8d13-8a50977b7e2c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button_with_icon > .buy-button__label",
+      "targets": [
+        ["css=.button_with_icon > .buy-button__label", "css:finder"],
+        ["xpath=//app-buy-button/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a8af984-063a-4716-8aec-25823b7315b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-trade",
+      "targets": [
+        ["css=.product-trade", "css:finder"],
+        ["xpath=//product-main-info/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42fc911c-cabb-448a-bbcd-8e08d91f6708",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button_with_icon > .buy-button__label",
+      "targets": [
+        ["css=.button_with_icon > .buy-button__label", "css:finder"],
+        ["xpath=//app-buy-button/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7557c3b5-73ca-457d-a151-932fa477c41d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_with_icon > .buy-button__label",
+      "targets": [
+        ["css=.button_with_icon > .buy-button__label", "css:finder"],
+        ["xpath=//app-buy-button/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1398e891-2ddf-4269-ad83-79f609b980af",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button_with_icon > .buy-button__label",
+      "targets": [
+        ["css=.button_with_icon > .buy-button__label", "css:finder"],
+        ["xpath=//app-buy-button/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6a151945-4215-4f9a-a1b7-781843690d38",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["82f04693-f402-49c1-9a72-f49ff7619eee"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
