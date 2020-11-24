@@ -129,6 +129,13 @@
       ],
       "value": ""
     }, {
+      "id": "5bc9758e-4dc5-4365-b92d-55b996bb6271",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__title",
+      "targets": [],
+      "value": "Коньяк Hennessy VS 4 роки витримки 0.7 л 40% в подарунковій упаковці (3245995960015)"
+    }, {
       "id": "42fc911c-cabb-448a-bbcd-8e08d91f6708",
       "comment": "",
       "command": "mouseOver",
@@ -161,7 +168,18 @@
         ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "7ca9541c-1126-4e36-a355-2d3fb13950a5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__title",
+      "targets": [],
+      "value": "Коньяк Hennessy VS 4 роки витримки 0.7 л 40% в подарунковій упаковці (3245995960015)"
     }]
+  }, {
+    "id": "2909db04-11b0-4a38-ab72-525619efe38f",
+    "name": "check",
+    "commands": []
   }],
   "suites": [{
     "id": "6a151945-4215-4f9a-a1b7-781843690d38",
